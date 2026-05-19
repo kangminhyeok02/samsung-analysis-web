@@ -338,13 +338,13 @@ h1, h2, h3, strong {
     color: var(--color-secondary-3);
 }
 
-/* 사업보고서 공식 공시 정보 카드 스타일 (디자인 가이드라인 준수) */
-.disclosure-card {
+/* 사업보고서 공식 공시 정보 및 신규 전략/상품 분석 카드 스타일 (디자인 가이드라인 준수) */
+.disclosure-card, .strategy-card, .product-card {
     grid-column: span 6;
 }
 
 @media (max-width: 768px) {
-    .disclosure-card {
+    .disclosure-card, .strategy-card, .product-card {
         grid-column: span 12;
     }
 }
